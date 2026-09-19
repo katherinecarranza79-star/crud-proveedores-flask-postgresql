@@ -1,0 +1,226 @@
+   /* =========================================
+   ESTILOS GENERALES
+========================================= */
+
+body {
+    background-color: #fff8fa;
+    color: #4a3440;
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================================
+   BARRA DE NAVEGACIÓN
+========================================= */
+
+.bg-rosa {
+    background-color: #9b4967 !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar .nav-link {
+    color: #fce8ef !important;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff !important;
+    background-color: #b95f7f;
+    border-radius: 8px;
+}
+
+
+/* =========================================
+   TÍTULOS
+========================================= */
+
+h1,
+h2,
+h3,
+h4 {
+    color: #7d3855;
+}
+
+.card-header h3 {
+    color: #ffffff;
+}
+
+
+/* =========================================
+   TARJETAS
+========================================= */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    border: none;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+
+/* =========================================
+   BOTONES
+========================================= */
+
+.btn-primary {
+    background-color: #b95379;
+    border-color: #b95379;
+}
+
+.btn-primary:hover {
+    background-color: #963f60;
+    border-color: #963f60;
+}
+
+.btn-outline-primary {
+    color: #a9476b;
+    border-color: #a9476b;
+}
+
+.btn-outline-primary:hover {
+    background-color: #a9476b;
+    border-color: #a9476b;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #d6a3b5;
+    border-color: #d6a3b5;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #bd8197;
+    border-color: #bd8197;
+}
+
+
+/* =========================================
+   FORMULARIOS
+========================================= */
+
+.form-label {
+    color: #6f344b;
+    font-weight: 600;
+}
+
+.form-control {
+    border: 1px solid #e4bdcb;
+    border-radius: 9px;
+}
+
+.form-control:focus {
+    border-color: #c45d83;
+    box-shadow: 0 0 0 0.2rem rgba(196, 93, 131, 0.15);
+}
+
+.form-check-input:checked {
+    background-color: #b95379;
+    border-color: #b95379;
+}
+
+
+/* =========================================
+   TABLA DE PROVEEDORES
+========================================= */
+
+.table thead th {
+    background-color: #f3d5df;
+    color: #70354c;
+    border-bottom: none;
+}
+
+.table tbody tr:hover {
+    background-color: #fff0f5;
+}
+
+
+/* =========================================
+   ESTADOS
+========================================= */
+
+.badge.text-bg-success {
+    background-color: #c35f82 !important;
+}
+
+.badge.text-bg-secondary {
+    background-color: #a58c95 !important;
+}
+
+
+/* =========================================
+   ÍCONOS
+========================================= */
+
+.bi {
+    margin-right: 4px;
+}
+
+
+/* =========================================
+   PIE DE PÁGINA
+========================================= */
+
+footer {
+    background-color: #f9e8ee;
+    color: #79505f;
+}
+
+
+/* =========================================
+   TEXTO SECUNDARIO
+========================================= */
+
+.text-muted {
+    color: #927481 !important;
+}
+/* =========================================
+   BOTONES DE ACCIONES
+========================================= */
+
+.btn-editar {
+    background-color: #e8a8bd;
+    border-color: #e8a8bd;
+    color: #6f3048;
+    font-weight: 600;
+}
+
+.btn-editar:hover {
+    background-color: #d78ba5;
+    border-color: #d78ba5;
+    color: #ffffff;
+}
+
+
+.btn-eliminar {
+    background-color: #a84d6d;
+    border-color: #a84d6d;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-eliminar:hover {
+    background-color: #f07ba6;
+    border-color: #e26895;
+    color: #ffffff;
+}
+
+
+/* Mantener los botones juntos */
+.table td {
+    vertical-align: middle;
+}
+
+.table th {
+    white-space: nowrap;
+}

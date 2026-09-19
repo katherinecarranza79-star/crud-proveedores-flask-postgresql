@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}
+Inicio | Gestión de Proveedores
+{% endblock %}
+
+{% block content %}
+
+<div class="text-center mb-5">
+    <h1 class="fw-bold">Gestión de Proveedores</h1>
+
+    <p class="lead">
+        Sistema para registrar, consultar, actualizar y eliminar
+        proveedores utilizando Flask y PostgreSQL.
+    </p>
+</div>
+
+<div class="row justify-content-center g-4">
+
+    <div class="col-12 col-md-5">
+        <div class="card shadow-sm h-100">
+            <div class="card-body text-center p-4">
+
+                <i class="bi bi-people fs-1"></i>
+
+                <h4 class="mt-3">
+                    Proveedores registrados
+                </h4>
+
+                <p>
+                    Consulta la información de los proveedores
+                    almacenados en la base de datos.
+                </p>
+
+                <a
+                    href="{{ url_for('proveedores') }}"
+                    class="btn btn-outline-primary"
+                >
+                    Ver proveedores
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-12 col-md-5">
+        <div class="card shadow-sm h-100">
+            <div class="card-body text-center p-4">
+
+                <i class="bi bi-person-plus fs-1"></i>
+
+                <h4 class="mt-3">
+                    Nuevo proveedor
+                </h4>
+
+                <p>
+                    Registra un nuevo proveedor y guarda
+                    su información en PostgreSQL.
+                </p>
+
+                <a
+                    href="{{ url_for('nuevo_proveedor') }}"
+                    class="btn btn-primary"
+                >
+                    Registrar proveedor
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
